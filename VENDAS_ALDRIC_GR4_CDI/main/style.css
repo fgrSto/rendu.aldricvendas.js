@@ -1,0 +1,97 @@
+@import url(/play/booster/booster.css);
+@import url(/play/play.css);
+@import url(/play/collection/collection.css);
+@import url(/subscribe/subcribe.css);
+@import url(header.css);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainTitle {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://wallpapergod.com/images/hd/harry-potter-1280X640-wallpaper-5rssjskb830c7wal.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 3px 3px 1px black;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .mainTitle {
+    height: 500px;
+  }
+}
+
+.blocOrange {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50px;
+  padding: 2vh;
+}
+
+.blocOrange a {
+  font-size: 4rem;
+  color: white;
+  text-decoration: none;
+}
+
+.playNow {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://wallpapers.com/images/hd/harry-potter-characters-using-magic-6nhsunyyq4kib7u8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .playNow {
+    height: 500px;
+  }
+}
+.Subscribe {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/originals/4b/e8/a6/4be8a65866285d7320b8deca78ac0f1d.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .Subscribe {
+    height: 500px;
+  }
+}
+
+.blocOrange a:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.footer {
+  background-color: gray;
+  color: white;
+  padding: 1vh;
+}

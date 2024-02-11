@@ -1,0 +1,50 @@
+.swiper-slide {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 45vh;
+  color: white;
+  -webkit-text-stroke: 1px black;
+}
+
+.booster1 {
+  background-image: url("https://www.relictcg.com/cdn/shop/products/MTGDMR_EN_ClctrBstr_01_01.png?v=1669998136");
+}
+
+.booster2 {
+  background-image: url("https://www.relictcg.com/cdn/shop/products/105724.jpg?v=1658975317");
+}
+
+.booster3 {
+  background-image: url("https://www.relictcg.com/cdn/shop/files/MTGWHO_EN_ClctrBstr_01_01.png?v=1693490392");
+}
+
+.booster4 {
+  background-image: url("https://www.relictcg.com/cdn/shop/files/MTGCMM_FR_Bstr_Set_01_01.png?v=1686223980");
+}
+
+.booster5 {
+  background-image: url("https://www.relictcg.com/cdn/shop/files/MTGWOE_FR_ClctrBstr_01_01.png?v=1690643505");
+}
+
+#swiper {
+  background-image: url("https://netrinoimages.s3.eu-west-2.amazonaws.com/2020/10/27/768355/348553/portal_blender_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_3640664_o.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-title {
+  font-weight: bold;
+  font-size: 80px;
+  padding: 0rem 5rem;
+}
+
+.swiper-subtitle {
+  font-size: 50px;
+  padding: 2rem 5rem;
+}

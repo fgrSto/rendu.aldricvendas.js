@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/main/style.css" />
+  </head>
+
+  <body class="dark">
+    <header>
+      <nav class="navBar">
+        <ul id="navbar">
+          <li><a href="/main/index.html">Home</a></li>
+          <li>
+            <section class="accordeon">
+              <div class="title">
+                <a href="/play/play.html">Play Now</a>
+                <img
+                  src="https://woodys.co.za/wp-content/uploads/2019/04/Icon-arrow-right-white.png"
+                  alt="arrow"
+                />
+              </div>
+              <div class="content">
+                <ul>
+                  <li><a href="/play/booster/booster.html">Booster</a></li>
+                  <li>
+                    <a href="/play/collection/collection.html">Collection</a>
+                  </li>
+                  <!-- <li><a href=""></a></li> -->
+                </ul>
+              </div>
+            </section>
+          </li>
+          <li><a href="/subscribe/subcribe.html">Subscribe</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="sub-main">
+      <div class="message-error">
+        <ul></ul>
+      </div>
+      <div class="message-success">Formulaire envoyé avec succès !</div>
+
+      <form action="" method="post" enctype="multipart/form-data">
+        <div>
+          <label for="pseudo">Pseudo</label>
+          <input type="text" id="pseudo" name="pseudo" />
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+        </div>
+
+        <div class="radio">
+          <label for="house">Maison souhaitée</label>
+          <select name="house" id="house-select">
+            <option value="">Select your house</option>
+            <option value="h1">Gryffondor</option>
+            <option value="h1">Poufsouffle</option>
+            <option value="h1">Serdaigle</option>
+            <option value="h1">Serpentard</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="password">Mot de passe</label>
+          <input type="password" id="password" name="password" />
+        </div>
+
+        <div>
+          <label for="password2">Confirmation du mot de passe</label>
+          <input type="password" id="password2" name="password2" />
+        </div>
+
+        <button class="sub-button" type="submit">S'inscrire</button>
+      </form>
+
+      <button class="dark-button">Darkness</button>
+      <a href="https://youtu.be/dQw4w9WgXcQ">
+        <button class="pink-button">Pink mode</button>
+      </a>
+
+      <div class="tab_container">
+        <div class="tab">
+          <button class="account_tab_button tab_active" data-house="gryffondor">
+            Gryffondor
+          </button>
+          <button class="account_tab_button" data-house="poufsouffle">
+            Poufsouffle
+          </button>
+          <button class="account_tab_button" data-house="serdaigle">
+            Serdaigle
+          </button>
+          <button class="account_tab_button" data-house="serpentard">
+            Serpentard
+          </button>
+        </div>
+
+        <div id="gryffondor" class="tab_content tab_active">
+          <h2>Gryffondor</h2>
+          <p>Cette maison est très populaire, on se demande pourquoi...</p>
+        </div>
+        <div id="poufsouffle" class="tab_content">
+          <h2>Poufsouffle</h2>
+          <p>
+            Pourquoi ? Personne n'est chez Poufsouffle, la preuve : citez moi
+            quelqu'un dans cette maison... Bah voilà ya personne !
+          </p>
+        </div>
+        <div id="serdaigle" class="tab_content">
+          <h2>Serdaigle</h2>
+          <p>
+            Bon choix, c'est la meilleur maison ! <br />
+            Je dis pas ça parce que c'est ma maison...
+          </p>
+        </div>
+        <div id="serpentard" class="tab_content">
+          <h2>Serpentard</h2>
+          <p>
+            Je dis pas que tout les antagoniste étaient dans cette maison,
+            mais...
+          </p>
+        </div>
+      </div>
+    </main>
+    <script src="/main/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+.navBar {
+  background-color: rgb(41, 25, 3);
+  display: flex;
+  padding: 2rem;
+  font-size: 3rem;
+}
+
+.navBar li:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+#navbar {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  width: 100%;
+  color: white;
+  justify-content: space-evenly;
+}
+
+.navBar a {
+  color: white;
+  text-decoration: none;
+}
+
+.accordeon {
+  border: 1px solid rgba(146, 146, 146, 0.3);
+  width: 80%;
+  max-width: 600px;
+  margin: 10px 50px;
+}
+
+.title {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 8px 16px rgba(146, 146, 146, 0.3);
+}
+
+.title img {
+  width: 20px;
+  height: 20px;
+}
+
+.content {
+  padding: 0px 20px;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  transition: 0.4s;
+}
+
+.accordeon.open .content {
+  padding: 10px 20px;
+  height: auto;
+  visibility: visible;
+}
+
+.accordeon.open .title {
+  padding: 40px 20px;
+  height: 0;
+  visibility: visible;
+}
+
+.title img {
+  width: 20px;
+  height: 20px;
+  transition: 0.4s;
+}
+
+.accordeon.open .title img {
+  transform-origin: center;
+  transform: rotate(90deg);
+}

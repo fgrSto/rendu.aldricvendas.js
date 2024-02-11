@@ -1,0 +1,45 @@
+.homeCard {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu {
+  position: relative;
+  left: 0px;
+  width: 0rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  background-color: white;
+  transition: 1.5s ease-in-out;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+  flex: 0.25;
+  max-width: 60rem;
+  margin: 2rem;
+}
+
+.menu img {
+  position: relative;
+  height: 40rem;
+}
+
+.menu:hover {
+  flex: 2;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.menu:nth-child(1) img {
+  left: -4rem;
+  bottom: -1.5rem;
+}
+
+.menu:nth-child(2) img {
+  block-size: 45rem;
+  left: 7.5rem;
+}
+
+.menu:nth-child(3) img {
+  left: 2rem;
+  bottom: -2rem;
+}
